@@ -1,12 +1,83 @@
-<html>
-    <head>
-        <title>MERCATO KINGS</title>
-    </head>
-    <body>
-        <h1>MERCATO KINGS</h1>
-        <div style="height: 100px; width: 500px;">
-            <img src="./img/rayo/dani_santiago.png" width="50" height="100"/>
-            <h1 style="float: right;">Dani Santiago</h1>
-        </div>
-    </body>
+<!DOCTYPE html>
+<html id="app" lang="es-ES" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Iniciar sesión - Spotify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <base href="/">
+  <link rel="icon" href="https://accounts.scdn.co/sso/images/favicon.ace4d8543bbb017893402a1e9d1ac1fa.ico">
+  <script defer src="https://accounts.scdn.co/sso/js/indexReact.ae65d06462d78f07ed28.js" sp-bootstrap></script>
+  <meta id="bootstrap-data" sp-bootstrap-data='{"phoneFeatureEnabled":false,"previewEnabled":false,"user":false,"tpaState":"AQAEPggu5tDha2cQQSvHVsZ2v/T+a61OKk4Fx+/W1hH/24pYp3a5u4gg4eP8vL/9uN9QviYKWz5Q18lYWxMj5Sorm/9siZm6ug5Bh2L5GQX8mtLlfQTU+QN4CqAiNXPv3QVscwY5TFqmafug9aGtJnalILYhhLlcNwxYDLDncVGu7s8Pd8s+hee51cb4/nHPuUgCeS3uNQXQQCgHEtMwByJXeBP+20/n0INnUZAa42i/+z4opMmvcJ0bAyzd4IzTfzkjEjNPsm+uyH0FmmojYbDPnLYIsJAtxPKw6BFFuCxSmIt0/IvJTOo4+qzHulNwK6e68l5GpxHKuo/4WF8kca2YTsi6MECzRqUVLra5opwPqKTzXtJJRMSMJaaR8w8j0WBs4d0j3yxzD83qFbeO42Kq9oUHmFVb1IxzupUudaAIQNzktgj39/kB+Mxt3UejgqqAL+V7/esFtrx0cA5XfOxG5sWWISbsK41JYM8=","geoLocationCountryCode":"ES","state":"","flowCtx":"8cef4241-f566-4b4b-b2af-5324f858f951:1716829309","BON":["0","0",-330499573]}' sp-component="login" sp-translations-data='eyJlcnJvclRpdGxlIjoiRXJyb3IiLCJsb2dpblRpdGxlIjoiSW5pY2lhciBzZXNpw7NuIiwiZm9yZ290WW91clBhc3N3b3JkVXNlcm5hbWUiOiLCv1NlIHRlIGhhIG9sdmlkYWRvIGxhIGNvbnRyYXNlw7FhPyIsImRvbnRIYXZlQW5BY2NvdW50Ijoiwr9ObyB0aWVuZXMgY3VlbnRhPyIsImlucHV0VXNlcm5hbWUiOiJEaXJlY2Npw7NuIGRlIGNvcnJlbyBvIG5vbWJyZSBkZSB1c3VhcmlvIiwiaW5wdXRFbWFpbE9yVXNlcm5hbWUiOiJDb3JyZW8gZWxlY3Ryw7NuaWNvIG8gbm9tYnJlIGRlIHVzdWFyaW8iLCJpbnB1dFBhc3N3b3JkIjoiQ29udHJhc2XDsWEiLCJjaGVja2JveFJlbWVtYmVyTWUiOiJSZWN1w6lyZGFtZSIsImVycm9yRm9ybURlZmF1bHQiOiJIYSBoYWJpZG8gdW4gZXJyb3IuIEludMOpbnRhbG8gZGUgbnVldm8gbyB2aXNpdGEgbnVlc3RyYSA8aGVscExpbms+em9uYSBkZSBheXVkYTwvaGVscExpbms+LiIsImVycm9ySW52YWxpZENyZWRlbnRpYWxzIjoiTm9tYnJlIGRlIHVzdWFyaW8gbyBjb250cmFzZcOxYSBpbmNvcnJlY3Rvcy4iLCJlcnJvckludmFsaWRDcmVkZW50aWFsc0ltcHJvdmVkIjoiTGEgZGlyZWNjacOzbiBkZSBjb3JyZW8gZWxlY3Ryw7NuaWNvLCBlbCBub21icmUgZGUgdXN1YXJpbyBvIGxhIGNvbnRyYXNlw7FhIG5vIHNvbiBjb3JyZWN0b3MuIiwiZXJyb3JVbmtub3duIjoiSGEgaGFiaWRvIHVuIGVycm9yLiBJbnTDqW50YWxvIGRlIG51ZXZvIG8gdmlzaXRhIG51ZXN0cmEgPGhlbHBMaW5rPnpvbmEgZGUgYXl1ZGE8L2hlbHBMaW5rPi4iLCJlcnJvclRyYW5zaWVudCI6IkhhIG9jdXJyaWRvIHVuIGVycm9yIGFsIGluaWNpYXIgc2VzacOzbi4gSW50ZW50YSBkZSBudWV2by4iLCJlcnJvckZhY2Vib29rQWNjb3VudCI6IlR1IGN1ZW50YSBkZSBTcG90aWZ5IG5vIGVzdMOhIGNvbmVjdGFkYSBhIGxhIGRlIEZhY2Vib29rLiBTaSB0aWVuZXMgY3VlbnRhIGRlIFNwb3RpZnksIGluaWNpYSBzZXNpw7NuIGNvbiB0dXMgY3JlZGVuY2lhbGVzLiBTaSBhw7puIG5vIHRpZW5lcyBjdWVudGEsIDxsaW5rV2l0aEhyZWY+cmVnw61zdHJhdGU8L2xpbmtXaXRoSHJlZj4uIiwiZXJyb3JTZXJ2ZXJFcnJvciI6IlNlIGhhIHByb2R1Y2lkbyB1biBlcnJvciBhbCBwcm9jZXNhciB0dSBzb2xpY2l0dWQuIFBvciBmYXZvciwgaW50w6ludGFsbyBkZSBudWV2by4iLCJlcnJvclVzZXJuYW1lUmVxdWlyZWQiOiJFc2NyaWJlIGVsIG5vbWJyZSBkZSB1c3VhcmlvIG8gY29ycmVvIGVsZWN0csOzbmljbyBxdWUgdXNhcyBwYXJhIFNwb3RpZnkuIiwiZXJyb3JVc2VybmFtZUludmFsaWRDaGFyYWN0ZXJzIjoiQ2FyYWN0ZXJlcyBubyBwZXJtaXRpZG9zIGVuIGVsIG5vbWJyZSBkZSB1c3VhcmlvOiB7Zm9yYmlkZGVuQ2hhcnN9LiIsImVycm9yUGFzc3dvcmRSZXF1aXJlZCI6IlBvciBmYXZvciwgaW50cm9kdWNlIHR1IGNvbnRyYXNlw7FhLiIsImVycm9yTm9JbnRlcm5ldENvbm5lY3Rpdml0eSI6Ik5vIHNlIGhhIHBvZGlkbyBjb25lY3Rhci4gQ29tcHJ1ZWJhIGxhIGNvbmV4acOzbiBhIEludGVybmV0IHksIGx1ZWdvLCB7dHJ5QWdhaW5MaW5rfS4iLCJlcnJvclRyeUFnYWluIjoicHJ1ZWJhIGRlIG51ZXZvIiwibG9nSW4iOiJJbmljaWFyIHNlc2nDs24iLCJsb2dJblRvU3BvdGlmeSI6IkluaWNpYSBzZXNpw7NuIGVuIFNwb3RpZnkiLCJzaWduVXBGb3JTcG90aWZ5IjoiU3VzY3LDrWJldGUgYSBTcG90aWZ5Iiwib3IiOiJvIiwibG9naW5Ub0NvbnRpbnVlIjoiUGFyYSBjb250aW51YXIsIGluaWNpYSBzZXNpw7NuIGVuIFNwb3RpZnkuIiwiZXJyb3JWYWxpZGF0aW9uSW52YWxpZENvZGUiOiJFc3RlIGPDs2RpZ28gbm8gZXMgdsOhbGlkby4gQ29tcHJ1ZWJhIGVsIFNNUyBlIGludMOpbnRhbG8gZGUgbnVldm8uIiwiZXJyb3JWYWxpZGF0aW9uSW52YWxpZENvZGVHZW5lcmljIjoiRXN0ZSBjw7NkaWdvIG5vIGVzIHbDoWxpZG8uIENvbXBydcOpYmFsbyB5IHZ1ZWx2ZSBhIGludGVudGFybG8uIiwiZXJyb3JTdWJtaXRUb29rVG9vTG9uZ1RvQ3JlYXRlIjoiTGEgc29saWNpdHVkIGhhIHRhcmRhZG8gZGVtYXNpYWRvIGVuIGNvbXBsZXRhcnNlLiBJbnTDqW50YWxvIGRlIG51ZXZvLiIsImVycm9yQXBwbGVBY2NvdW50IjoiTm8gaGF5IG5pbmd1bmEgY3VlbnRhIGRlIFNwb3RpZnkgY29uZWN0YWRhIGEgdHUgSUQgZGUgQXBwbGUuIFNpIHRpZW5lcyBjdWVudGEgZGUgU3BvdGlmeSwgcHJ1ZWJhIGEgaW5pY2lhciBzZXNpw7NuIGNvbiB0dSBjb3JyZW8gZWxlY3Ryw7NuaWNvIG8gbm9tYnJlIGRlIHVzdWFyaW8gZGUgU3BvdGlmeS4gU2kgbm8gdGllbmVzIGN1ZW50YSBkZSBTcG90aWZ5LCByZWfDrXN0cmF0ZS4iLCJjb250aW51ZVdpdGhBcHBsZSI6IkNvbnRpbnVhciBjb24gQXBwbGUiLCJjb250aW51ZVdpdGhGYWNlYm9vayI6IkNvbnRpbnVhciBjb24gRmFjZWJvb2siLCJjb250aW51ZVdpdGhQaG9uZU51bWJlciI6IkNvbnRpbnVhciBjb24gbsO6bWVybyBkZSB0ZWzDqWZvbm8iLCJjb250aW51ZVdpdGhHb29nbGUiOiJDb250aW51YXIgY29uIEdvb2dsZSIsImVycm9yR29vZ2xlQWNjb3VudCI6Ik5vIGhheSBuaW5ndW5hIGN1ZW50YSBkZSBTcG90aWZ5IGNvbmVjdGFkYSBhIHR1IGN1ZW50YSBkZSBHb29nbGUuIFNpIHRpZW5lcyBjdWVudGEgZGUgU3BvdGlmeSwgcHJ1ZWJhIGEgaW5pY2lhciBzZXNpw7NuIGNvbiB0dSBjb3JyZW8gZWxlY3Ryw7NuaWNvIG8gbm9tYnJlIGRlIHVzdWFyaW8gZGUgU3BvdGlmeS4gU2kgbm8gdGllbmVzIGN1ZW50YSBkZSBTcG90aWZ5LCByZWfDrXN0cmF0ZS4iLCJyZWNhcHRjaGFMZWdhbE5vdGljZSI6IkVzdGUgc2l0aW8gZXN0w6EgcHJvdGVnaWRvIHBvciByZUNBUFRDSEEuIFNlIGFwbGljYW4gbG9zIDxnb29nbGVUZXJtc0xpbms+VMOpcm1pbm9zIGRlbCBzZXJ2aWNpbzwvZ29vZ2xlVGVybXNMaW5rPiB5IGxhIDxnb29nbGVQcml2YWN5UG9saWN5TGluaz5Qb2zDrXRpY2EgZGUgcHJpdmFjaWRhZDwvZ29vZ2xlUHJpdmFjeVBvbGljeUxpbms+IGRlIEdvb2dsZS4iLCJsb2dpbldpdGhvdXRQYXNzd29yZCI6IkluaWNpYXIgc2VzacOzbiBzaW4gY29udHJhc2XDsWEiLCJtYWdpY19saW5rX3BvcHVwX2hlYWRlciI6IsK/UHJvYmxlbWFzIHBhcmEgaW5pY2lhciBzZXNpw7NuPyIsIm1hZ2ljX2xpbmtfcG9wdXBfYm9keSI6IlRlIGhlbW9zIGVudmlhZG8gdW4gY29ycmVvIGNvbiB1biBlbmxhY2UgcXVlIHRlIHBlcm1pdGlyw6EgaW5pY2lhciBzZXNpw7NuIHNpbiBjb250cmFzZcOxYS4iLCJkaWFsb2dfX2FjdGlvbl9yZXRyeV9sb2dpbiI6IlByb2JhciBjb24gb3RyYSBjb250cmFzZcOxYSJ9'>
+  <style>
+    body {
+      background-color: #121212;
+      margin: 0;
+    }
+    #root {
+      min-height: 100vh;
+    }
+    .loading-indicator-container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .loading-indicator-container * {
+      box-sizing: border-box;
+    }
+    .loading-indicator {
+      content: "";
+      width: 56px;
+      inline-size: 56px;
+      block-size: 12.4px;
+      height: 12.4px;
+      overflow-clip-margin: content-box;
+      overflow: hidden;
+    }
+    .loading-indicator circle {
+      fill: white;
+      animation: loading-indicator-kf 1.32s linear infinite;
+      transform-origin: center center;
+      opacity: 0.5;
+    }
+    .loading-indicator circle:nth-of-type(2) {
+      animation-delay: 0.1s;
+    }
+    .loading-indicator circle:nth-of-type(3) {
+      animation-delay: 0.2s;
+    }
+    @keyframes loading-indicator-kf {
+      0% {
+        animation-timing-function: cubic-bezier(1, 0, 0.7, 1);
+        opacity: 0.5;
+        transform: scale(1);
+      }
+      40% {
+        animation-timing-function: cubic-bezier(0.3, 0, 0, 1);
+        opacity: 0.75;
+        transform: scale(1.3);
+      }
+      72.5% {
+        animation-timing-function: linear;
+        opacity: 0.5;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 0.5;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body class="encore-dark-theme encore-layout-themes">
+<div id="root">
+  <div class="loading-indicator-container">
+    <svg class="loading-indicator" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1 100" xml:space="preserve" role="progressbar" aria-valuetext="Loading">
+      <circle stroke="none" cx="-140" cy="50" r="32"></circle>
+      <circle stroke="none" cx="0" cy="50" r="32"></circle>
+      <circle stroke="none" cx="140" cy="50" r="32"></circle>
+    </svg>
+  </div>
+</div>
+</body>
 </html>
